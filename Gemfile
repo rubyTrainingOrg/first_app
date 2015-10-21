@@ -18,7 +18,11 @@ gem 'jquery-rails', '2.2.1'
 gem 'turbolinks', '1.0.0'
 gem 'jbuilder', '1.0.1'
 
+group :development, :test do
+  gem 'pg', '0.14.1'
+end
+
+
 group :production do
   gem 'rails_12factor'
-  gem 'pg', '0.14.1'
 end
