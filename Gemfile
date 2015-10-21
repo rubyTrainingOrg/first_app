@@ -18,7 +18,7 @@ gem 'jquery-rails', '2.2.1'
 gem 'turbolinks', '1.0.0'
 gem 'jbuilder', '1.0.1'
 
-group :development, :test do
+group :production, :development, :test do
   gem 'pg'
 end
 
